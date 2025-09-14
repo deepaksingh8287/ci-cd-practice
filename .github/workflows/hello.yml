@@ -1,11 +1,8 @@
-name: Basic CI Pipeline
-# Trigger this pipeline on every push
+name: "basic yml files"
 on: [push]
-
 jobs:
-    builds:
-        runs-on: ubuntu-latest
-
-        steps:
-            - name: Say Hello
-              run: echo "Hello From CI Pipeline"gma
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my name is deepak
+        run: echo "hello world"
